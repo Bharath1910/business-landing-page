@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #636C79;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 20;
+}
+
+.nav-items {
+    flex: 60;
+
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 40px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn {
+    flex: 20;
+    padding-left: 60px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 30px;
+    font-size: 20px;
+}
