@@ -110,6 +110,11 @@ nav {
     text-align: center;
 }
 
+.heading h1 {
+    font-family: "Raleway";
+    font-size: 40px;
+}
+
 .stats {
     display: flex;
     justify-content: center;
@@ -126,10 +131,12 @@ nav {
 .stat p:first-child {
     font-size: 40px;
     font-weight: 600;
+    font-family: "Poppins";
 }
 
 .stat p:nth-child(2) {
     font-size: 20px;
+    font-family: "Raleway";
 }
 
 .vid {
@@ -198,3 +205,42 @@ nav {
     font-size: 20px;
 }
 
+.team-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team h1 {
+    width: 300px;
+    font-size: 40px;
+    font-family: "Raleway";
+}
+
+.team p {
+    font-family: "Poppins";
+}
+
+.team-top p {
+    font-size: 20px;
+    width: 400px;
+}
+
+.team-bottom {
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member img {
+    width: 250px;
+}
+
+.team-bottom h1 {
+    width: 250px;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.team-bottom p {
+    width: 250px;
+}
