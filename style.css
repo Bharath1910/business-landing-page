@@ -74,11 +74,15 @@ nav {
 .content h1 {
     font-size: 55px;
     color: #ffffff;
+
+    font-family: "Raleway";
 }
 
 .content p {
     font-size: 20px;
     color: #ffffff;
+
+    font-family: "Poppins";
 }
 
 .mail {
@@ -195,6 +199,7 @@ nav {
     font-family: "Poppins";
 }
 
+.link a,
 .post-content a {
     font-family: "Poppins";
     width: fit-content;
@@ -243,4 +248,61 @@ nav {
 
 .team-bottom p {
     width: 250px;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #10181D;
+    padding: 50px 100px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #3b4146;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.socials p {
+    background-color: #282F34;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.socials p i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.list-items {
+    list-style: none;
+    color: #ffffff;
+}
+
+.list-items li:first-child {
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list-items li {
+    padding: 7px 0;
+    font-size: 14px;
+    font-family: "Poppins";
 }
